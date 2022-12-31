@@ -176,10 +176,15 @@ model.train()
 * Then the training process (for 5 epochs) will be similar to the following (numbers can be different):
 
 Train Epoch: 0   Accuracy: 42954/60000(71.59%) Loss: 0.833
+
 Train Epoch: 1   Accuracy: 49602/60000(82.67%) Loss: 0.489
+
 Train Epoch: 2   Accuracy: 50730/60000(84.55%) Loss: 0.436
+
 Train Epoch: 3   Accuracy: 51383/60000(85.64%) Loss: 0.405
+
 Train Epoch: 4   Accuracy: 51820/60000(86.37%) Loss: 0.383
+
 * Here are a few specific requirements for the format:
     * We count the first epoch as Epoch 0
     * All the information should be summarized in one line for each epoch. (e.g. in total you should print 5 lines if you train for 5 epochs)
