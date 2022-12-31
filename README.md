@@ -174,6 +174,7 @@ model.train()
 * We ask you to print the training status after every epoch of training in the following format (it should have 3components per line):
 * Train Epoch: ? Accuracy: ?/?(??.??%) Loss: ?.???
 * Then the training process (for 5 epochs) will be similar to the following (numbers can be different):
+
 Train Epoch: 0   Accuracy: 42954/60000(71.59%) Loss: 0.833
 Train Epoch: 1   Accuracy: 49602/60000(82.67%) Loss: 0.489
 Train Epoch: 2   Accuracy: 50730/60000(84.55%) Loss: 0.436
